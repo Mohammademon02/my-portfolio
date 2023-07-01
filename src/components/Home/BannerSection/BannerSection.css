@@ -1,0 +1,54 @@
+.dodeca,
+.dodeca div {
+    margin: 0 auto;
+    transform-origin: 50% 50%;
+    overflow: hidden;
+    width: 450px;
+    height: 450px;
+}
+
+.dodeca {
+    transform: rotate(120deg);
+}
+
+.dode1 {
+    transform: rotate(-60deg);
+}
+
+.dode2 {
+    transform: rotate(-60deg);
+}
+
+/* irregular dodecagon */
+.irr,
+.irr div {
+    width: 420px;
+}
+
+
+@media screen and (max-width: 640px) {
+
+    .dodeca,
+    .dodeca div {
+        width: 300px;
+        height: 300px;
+    }
+
+    .irr,
+    .irr div {
+        width: 320px;
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 768px) {
+    .dodeca,
+        .dodeca div {
+            width: 300px;
+            height: 300px;
+        }
+    
+        .irr,
+        .irr div {
+            width: 320px;
+        }
+}
