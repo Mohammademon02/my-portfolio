@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 
-*{
+* {
     background-color: black;
+    color: white;
 }
