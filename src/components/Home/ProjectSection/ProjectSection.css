@@ -1,0 +1,41 @@
+.container {
+    margin: 5px auto;
+}
+
+.your_frame {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.your_frame img {
+    object-fit: cover;
+    width: 100%;
+    transform: translateY(0);
+    transition: 2s ease-out;
+}
+
+.your_frame:hover img {
+    object-fit: cover;
+    transform: translateY(calc(-100% + 400px));
+    transition: 2s ease-out;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: green;
+    color: white;
+}
+
+.hover_dialog {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.hover_dialog {
+    opacity: 1;
+}

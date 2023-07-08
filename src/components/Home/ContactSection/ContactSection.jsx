@@ -49,10 +49,10 @@ const ContactSection = () => {
 
                     <div className="flex items-center mt-5">
                         <p className=" rounded-full bg-[#1A1A1A] hover:bg-yellow-400 p-3.5 ml-5 inline-block">
-                            <a href=""><BsFacebook className='text-white bg-transparent' /></a>
+                            <a target="-blank" href="https://www.facebook.com/mohammad.emon.cse"><BsFacebook className='text-white bg-transparent' /></a>
                         </p>
                         <p className=" rounded-full bg-[#1A1A1A] hover:bg-yellow-400 p-3.5 ml-5 inline-block">
-                            <a href=""><BsGithub className='text-white bg-transparent' /></a>
+                            <a target="-blank" href="https://github.com/Mohammademon02"><BsGithub className='text-white bg-transparent' /></a>
                         </p>
                     </div>
 
