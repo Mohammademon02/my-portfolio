@@ -17,9 +17,9 @@ const ProjectSection = () => {
     };
 
     return (
-        <section>
-            <h1 className="text-6xl font-bold text-center text-white my-12">MY <span className="text-yellow-400">PROJECTS</span></h1>
-            <div className='rounded grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-5'>
+        <section className='mx-7'>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center text-white my-12">MY <span className="text-yellow-400">PROJECTS</span></h1>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-5'>
 
                 {
                     projectData.map(project =>

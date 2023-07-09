@@ -1,4 +1,4 @@
-/* .dodeca,
+.dodeca,
 .dodeca div {
     margin: 0 auto;
     transform-origin: 50% 50%;
@@ -22,10 +22,10 @@
 .irr,
 .irr div {
     width: 420px;
-} */
+}
 
 
-/* @media screen and (max-width: 640px) {
+@media screen and (max-width: 640px) {
 
     .dodeca,
     .dodeca div {
@@ -50,4 +50,4 @@
         .irr div {
             width: 320px;
         }
-} */
+}

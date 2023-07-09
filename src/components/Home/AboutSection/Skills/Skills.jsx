@@ -33,7 +33,7 @@ const Skills = () => {
                                 src={skill.image}
                                 alt={skill.name}
                             />
-                            <div className="text-center" style={{ fontSize: 12, marginTop: -5 }}>
+                            <div className="text-center text-white" style={{ fontSize: 12, marginTop: -5 }}>
                                 <strong>{skill.percentage}% <br />{skill.name}</strong>
                             </div>
                         </CircularProgressbarWithChildren>

@@ -5,11 +5,11 @@ import { BsFacebook, BsFillSendFill, BsGithub } from "react-icons/bs";
 
 const ContactSection = () => {
     return (
-        <section>
-            <h1 className="text-6xl font-bold text-center text-white my-12">GET IN <span className="text-yellow-400">TOUCH</span></h1>
-            <div className="flex-none md:flex lg:flex xl:flex gap-5">
+        <section className="mx-7">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center text-white my-12">GET IN <span className="text-yellow-400">TOUCH</span></h1>
+            <div className="flex-none md:flex lg:flex xl:flex gap-5 mb-7">
                 <div className="w-full md:w-5/12 lg:w-5/12 xl:w-5/12">
-                    <h1 className="uppercase text-white text-3xl font-bold my-12">Don't be shy!</h1>
+                    <h1 className="uppercase text-white text-3xl font-bold my-12">Contact Me</h1>
 
                     <div >
                         <div className="flex items-center ">

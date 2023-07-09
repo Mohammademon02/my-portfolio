@@ -3,7 +3,7 @@
 }
 
 .your_frame {
-    width: 400px;
+    width: 100%;
     height: 400px;
     overflow: hidden;
     cursor: pointer;
@@ -12,6 +12,7 @@
 .your_frame img {
     object-fit: cover;
     width: 100%;
+    height: auto;
     transform: translateY(0);
     transition: 2s ease-out;
 }
