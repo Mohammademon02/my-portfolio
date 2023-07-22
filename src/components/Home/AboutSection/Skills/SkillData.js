@@ -28,19 +28,19 @@ const skillData = [
         id: 5,
         name: "JavaScript",
         image: "https://i.ibb.co/Wnt6mcF/icons8-js-100.png",
-        percentage: 65
+        percentage: 60
     },
     {
         id: 6,
         name: "DOM",
-        image: "https://i.ibb.co/NS5jQJD/icons8-css-100.png",
-        percentage: 70
+        image: "https://i.ibb.co/Wnt6mcF/icons8-js-100.png",
+        percentage: 60
     },
     {
         id: 7,
         name: "ES6",
-        image: "https://i.ibb.co/NS5jQJD/icons8-css-100.png",
-        percentage: 70
+        image: "https://i.ibb.co/Wnt6mcF/icons8-js-100.png",
+        percentage: 60
     },
     {
         id: 8,

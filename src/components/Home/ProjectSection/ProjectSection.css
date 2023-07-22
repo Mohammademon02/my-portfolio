@@ -32,11 +32,33 @@
     color: white;
 }
 
-.hover_dialog {
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
+
+
+
+
+.top-section {
+    /* Top section is visible by default */
+    opacity: 1;
+    transition: opacity 1s;
 }
 
-.hover_dialog {
+.bottom-section {
+    /* Bottom section is hidden by default */
+    opacity: 0;
+    transform: translateY(20px);
+    /* Move the bottom section down by 20px initially */
+    transition: opacity 1s, transform 1s;
+    /* Add transition for transform property */
+}
+
+.description-container:hover .top-section {
+    /* Hide top section on hover */
+    opacity: 0;
+}
+
+.description-container:hover .bottom-section {
+    /* Show bottom section on hover */
     opacity: 1;
+    transform: translateY(0);
+    /* Move the bottom section up to its original position */
 }

@@ -73,7 +73,7 @@ const ContactSection = () => {
                         </div>
                         <button className="rounded-full border-2 border-yellow-400 hover:bg-yellow-400 text-white px-3 py-2 flex items-center ">
                             <a className='mr-2 transition-all duration-300 hover:mr-5 bg-transparent' target="_blank"
-                                rel="noreferrer" href="https://drive.google.com/file/d/14h2kwfjXIa5amWDS8jgF3LvyEg-pDN-Q/view">Send Message</a>
+                                 >Send Message</a>
                             <span className='rounded-full bg-yellow-400 p-1'>
                                 <BsFillSendFill className=' text-white bg-transparent' />
                             </span>

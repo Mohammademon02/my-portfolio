@@ -33,6 +33,20 @@ const EducationAndTraining = () => {
                     <p className="text-white text-md lg:text-lg mt-5 ml-14">Jan, 2023 - July, 2023</p>
                     <p className="text-white text-md lg:text-lg mt-4 ml-14">Programming Hero, Online</p>
                 </div>
+
+                <div className="sm:mt-0 md:mt-5 lg:mt-5 xl:mt-5 ">
+                    <div className="flex items-center ">
+                        <p className=" rounded-full bg-yellow-400 p-3.5 inline-block">
+                            <FaUserGraduate className='text-white bg-transparent' />
+                        </p>
+                        <h3 className="rounded-full bg-[#1A1A1A] text-white text-md lg:text-lg px-5 py-3 ml-2 font-semibold inline-block">
+                            Frontend Development
+                        </h3>
+                    </div>
+
+                    <p className="text-white text-md lg:text-lg mt-5 ml-14">Jan, 2022 - March, 2022</p>
+                    <p className="text-white text-md lg:text-lg mt-4 ml-14">BdTask Limited, Dhaka</p>
+                </div>
             </div>
         </section>
     );

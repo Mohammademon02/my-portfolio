@@ -32,20 +32,20 @@ const PersonalInfo = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2  gap-5 text-center">
                     <div className="rounded py-3 bg-[#1A1A1A]">
-                        <h2 className="text-5xl font-bold text-yellow-400 bg-transparent">6+</h2>
-                        <p className="text-white bg-transparent">Months of Experience</p>
+                        <h2 className="text-5xl font-bold text-yellow-400 bg-transparent">1+</h2>
+                        <p className="text-white bg-transparent">Years of Experience</p>
                     </div>
                     <div className="rounded-md py-3 bg-[#1A1A1A]">
-                        <h2 className="text-5xl font-bold text-yellow-400 bg-transparent">12+</h2>
+                        <h2 className="text-5xl font-bold text-yellow-400 bg-transparent">13+</h2>
                         <p className="text-white bg-transparent">Completed Projects</p>
                     </div>
                     <div className="rounded-md py-3 bg-[#1A1A1A]">
                         <h2 className="text-5xl font-bold text-yellow-400 bg-transparent">6+</h2>
-                        <p className="text-white bg-transparent">Months of Experience</p>
+                        <p className="text-white bg-transparent">Completed Projects</p>
                     </div>
                     <div className="rounded-md py-3 bg-[#1A1A1A]">
                         <h2 className="text-5xl font-bold text-yellow-400 bg-transparent">6+</h2>
-                        <p className="text-white bg-transparent">Months of Experience</p>
+                        <p className="text-white bg-transparent">Completed Projects</p>
                     </div>
                 </div>
 

@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import './ProjectSection.css'
 import projectData from './ProjectData';
 import { FaGithub } from 'react-icons/fa';
@@ -6,15 +5,7 @@ import { AiFillEye } from 'react-icons/ai';
 
 const ProjectSection = () => {
 
-    const [isHovered, setIsHovered] = useState(false);
-
-    const handleMouseEnter = () => {
-        setIsHovered(true);
-    };
-
-    const handleMouseLeave = () => {
-        setIsHovered(false);
-    };
+    
 
     return (
         <section className='mx-7'>
@@ -26,14 +17,16 @@ const ProjectSection = () => {
                         <div
                             key={project.id}
                             className="container mx-auto " >
-                            <div
-                                className="relative your_frame"
-                                onMouseEnter={handleMouseEnter}
-                                onMouseLeave={handleMouseLeave}
-                            >
+                            <div className="relative your_frame">
                                 <img src={project.image} alt="img" />
-                                {isHovered ? (
-                                    <div className="absolute h-40 bottom-0 left-0 w-full bg-black bg-opacity-80 text-white text-center p-4 hover_dialog">
+
+                                <div className='description-container' >
+                                    <div className="top-section absolute h-40 bottom-0 left-0 w-full bg-black bg-opacity-80 text-center  p-4 opacity-100  ">
+                                        <h2 className="text-2xl text-yellow-400 font-bold mb-2 bg-transparent">{project.title}</h2>
+                                        <p className="text-sm text-white bg-transparent ">{project.description}</p>
+                                    </div>
+
+                                    <div className="bottom-section absolute h-40 bottom-0 left-0 w-full bg-black bg-opacity-80 text-white text-center p-4 hover_dialog">
                                         <div className="dialog_content bg-transparent" >
                                             <p className='bg-transparent font-semibold'>Technologies : <span className='bg-transparent text-sm font-light'>{project.technologies} </span></p>
                                             <div className='flex bg-transparent items-center justify-center mt-3'>
@@ -54,12 +47,8 @@ const ProjectSection = () => {
                                             </div>
                                         </div>
                                     </div>
-                                ) : (
-                                    <div className="absolute h-40 bottom-0 left-0 w-full bg-black bg-opacity-80 text-center  p-4 opacity-100 transition-opacity duration-500 ">
-                                        <h2 className="text-2xl text-yellow-400 font-bold mb-2 bg-transparent">{project.title}</h2>
-                                        <p className="text-sm text-white bg-transparent ">{project.description}</p>
-                                    </div>
-                                )}
+                                </div>
+
                             </div>
                         </div>)
                 }
